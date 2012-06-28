@@ -47,17 +47,17 @@ Annotation
 
 Sample annotated files for testing are provided in `annotation/`.
 
-`aspect.json`
+`aspect.json`  
     Labels for aspect identification, represented as a clustering over
 snippets.
 
-`words.json`
-    Per-word labels for type of word:
-        * 0 -- aspect
-        * 1 -- sentiment
-        * 2 -- background
+`words.json`  
+    Per-word labels for type of word:  
+        * 0 -- aspect  
+        * 1 -- sentiment  
+        * 2 -- background  
     Collected via Amazon Mechanical Turk.
 
-`sentiment_{train,test}`
+`sentiment_{train,test}`  
     Annotation of snippet sentiments, positive or negative.  All neutral or
 ambiguous snippets have been removed from this set.
