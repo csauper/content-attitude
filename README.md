@@ -53,9 +53,11 @@ snippets.
 
 `words.json`  
     Per-word labels for type of word:  
+
         * 0 -- aspect  
         * 1 -- sentiment  
         * 2 -- background  
+
     Collected via Amazon Mechanical Turk.
 
 `sentiment_{train,test}`  
